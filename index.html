@@ -14,29 +14,8 @@
     />
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css" />
-    <style>
-      :root {
-            --primary-color: #3a0ca3;
-            --secondary-color: #4361ee;
-            --light-color: #f8f9fa;
-            --dark-color: #212529;
-        }
-      .skill-badge {
-            margin: 5px;
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 14px;
-            font-weight: 500;
-            background-color: #e9ecef;
-            color: var(--dark-color);
-            transition: background-color 0.3s;
-        }
-
-        .skill-badge:hover {
-            background-color: var(--secondary-color);
-            color: rgb(240, 240, 243);
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/custom.css" />
+   
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -215,150 +194,154 @@
             <!-- </div> -->
           </div>
         </div>
+        <!-- Skills Section -->
+        <div class="row mb-5 mt-3">
+          <!-- Front-End Skills -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-laptop-code me-2"></i> Front-End
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">HTML</span>
+                  <span class="skill-badge">CSS</span>
+                  <span class="skill-badge">JavaScript</span>
+                  <span class="skill-badge">Bootstrap</span>
+                  <span class="skill-badge">jQuery</span>
+                  <span class="skill-badge">Ajax</span>
+                  <span class="skill-badge">JSON</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Back-End Skills -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-server me-2"></i> Back-End
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">PHP</span>
+                  <span class="skill-badge">Laravel</span>
+                  <span class="skill-badge">CodeIgniter</span>
+                  <span class="skill-badge">Zend</span>
+                  <span class="skill-badge">REST API</span>
+                  <span class="skill-badge">GraphQL</span>
+                  <span class="skill-badge">LAMP</span>
+                  <span class="skill-badge">LEMP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database Skills -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-database me-2"></i> Databases
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">MySQL</span>
+                  <span class="skill-badge">Redis</span>
+                  <span class="skill-badge">ElasticSearch</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DevOps & Version Control -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-code-branch me-2"></i> DevOps & Version
+                  Control
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">Git</span>
+                  <span class="skill-badge">GitHub</span>
+                  <span class="skill-badge">BitBucket</span>
+                  <span class="skill-badge">JIRA</span>
+                  <span class="skill-badge">Jenkins</span>
+                  <span class="skill-badge">Docker</span>
+                  <span class="skill-badge">Varnish</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Platform & Cloud -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-cloud me-2"></i> Platform & Cloud
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">Windows</span>
+                  <span class="skill-badge">Linux</span>
+                  <span class="skill-badge">AWS</span>
+                  <span class="skill-badge">Azure</span>
+                  <span class="skill-badge">Nginx</span>
+                  <span class="skill-badge">Apache</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CMS & Digital Marketing -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-paint-brush me-2"></i> CMS & Digital
+                  Marketing
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">WordPress</span>
+                  <span class="skill-badge">Magento 2</span>
+                  <span class="skill-badge">Facebook Pixel</span>
+                  <span class="skill-badge">Google Tag Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Networking -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="skill-card card shadow-sm h-100">
+              <div class="card-header">
+                <h4 class="mb-0">
+                  <i class="fas fa-network-wired me-2"></i> Networking
+                </h4>
+              </div>
+              <div class="card-body">
+                <div class="d-flex flex-wrap">
+                  <span class="skill-badge">CCNA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!-- end of about wrapper -->
       </div>
-      <!-- Skills Section -->
-      <div class="row mb-5 mt-3">
-        <!-- Front-End Skills -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0">
-                <i class="fas fa-laptop-code me-2"></i> Front-End
-              </h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">HTML</span>
-                <span class="skill-badge">CSS</span>
-                <span class="skill-badge">JavaScript</span>
-                <span class="skill-badge">Bootstrap</span>
-                <span class="skill-badge">jQuery</span>
-                <span class="skill-badge">Ajax</span>
-                <span class="skill-badge">JSON</span>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <!-- Back-End Skills -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0"><i class="fas fa-server me-2"></i> Back-End</h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">PHP</span>
-                <span class="skill-badge">Laravel</span>
-                <span class="skill-badge">CodeIgniter</span>
-                <span class="skill-badge">Zend</span>
-                <span class="skill-badge">REST API</span>
-                <span class="skill-badge">GraphQL</span>
-                <span class="skill-badge">LAMP</span>
-                <span class="skill-badge">LEMP</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Database Skills -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0">
-                <i class="fas fa-database me-2"></i> Databases
-              </h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">MySQL</span>
-                <span class="skill-badge">Redis</span>
-                <span class="skill-badge">ElasticSearch</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- DevOps & Version Control -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0">
-                <i class="fas fa-code-branch me-2"></i> DevOps & Version Control
-              </h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">Git</span>
-                <span class="skill-badge">GitHub</span>
-                <span class="skill-badge">BitBucket</span>
-                <span class="skill-badge">JIRA</span>
-                <span class="skill-badge">Jenkins</span>
-                <span class="skill-badge">Docker</span>
-                <span class="skill-badge">Varnish</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Platform & Cloud -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0">
-                <i class="fas fa-cloud me-2"></i> Platform & Cloud
-              </h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">Windows</span>
-                <span class="skill-badge">Linux</span>
-                <span class="skill-badge">AWS</span>
-                <span class="skill-badge">Azure</span>
-                <span class="skill-badge">Nginx</span>
-                <span class="skill-badge">Apache</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- CMS & Digital Marketing -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0">
-                <i class="fas fa-paint-brush me-2"></i> CMS & Digital Marketing
-              </h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">WordPress</span>
-                <span class="skill-badge">Magento 2</span>
-                <span class="skill-badge">Facebook Pixel</span>
-                <span class="skill-badge">Google Tag Manager</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Networking -->
-        <div class="col-md-6 col-lg-4 mb-4">
-          <div class="skill-card card shadow-sm h-100">
-            <div class="card-header">
-              <h4 class="mb-0">
-                <i class="fas fa-network-wired me-2"></i> Networking
-              </h4>
-            </div>
-            <div class="card-body">
-              <div class="d-flex flex-wrap">
-                <span class="skill-badge">CCNA</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- end of container -->
     </section>
     <!-- end of about section -->
@@ -710,7 +693,7 @@
     <!-- end of pricing section -->
 
     <!-- section -->
-    <section class="section-sm bg-primary">
+    <section class="section bg-primary w-custom mx-auto">
       <!-- container -->
       <div class="container text-center text-sm-left">
         <!-- row -->

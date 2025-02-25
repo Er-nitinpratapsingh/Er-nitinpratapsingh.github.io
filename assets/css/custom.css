@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #3a0ca3;
+  --secondary-color: #4361ee;
+  --light-color: #f8f9fa;
+  --dark-color: #212529;
+}
+.skill-badge {
+  margin: 5px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #e9ecef;
+  color: var(--dark-color);
+  transition: background-color 0.3s;
+}
+
+.skill-badge:hover {
+  background-color: var(--secondary-color);
+  color: rgb(240, 240, 243);
+}
+.w-custom {
+  width: 85%;
+}
