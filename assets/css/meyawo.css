@@ -11188,9 +11188,13 @@ p {
 
 /*/ portfolio wrapper */
 .portfolio-card {
-  display: block;
-  position: relative;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;   /* centers 400x100 image */
+  align-items: center;
   overflow: hidden;
+  position: relative; 
 }
 
 .portfolio-card .portfolio-card-img {
